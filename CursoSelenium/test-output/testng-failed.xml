@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.google.GoogleTest">
+      <class name="com.opensourse.admin.qa.TC005_Admin_CreateUserDisabled">
         <methods>
-          <include name="f"/>
-          <include name="beforeTest"/>
           <include name="afterTest"/>
+          <include name="TC005_Admin_CreateUserDisabled_Script"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.google.GoogleTest -->
+      </class> <!-- com.opensourse.admin.qa.TC005_Admin_CreateUserDisabled -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
